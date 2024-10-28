@@ -1,0 +1,14 @@
+
+.slider-container {
+  margin: 20px 0;
+}
+
+.slider-values {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+input[type="range"] {
+  width: 60%;
+  margin: 10px 0;
+}

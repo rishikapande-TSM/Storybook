@@ -1,0 +1,14 @@
+
+.grid-item {
+    background-color: #e0e0e0;
+    border: 1px solid #bbb;
+    padding: 16px;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 4px;
+  }
+  
+  .grid-container {
+    margin: 16px; 
+  }
+  

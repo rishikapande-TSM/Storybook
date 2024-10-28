@@ -1,0 +1,14 @@
+.dropdown select {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: beige;
+}
+
+.dropdown select[multiple]{
+  height: 100px;
+  padding: 10px;
+  background-color: rgb(196, 189, 189);
+}
