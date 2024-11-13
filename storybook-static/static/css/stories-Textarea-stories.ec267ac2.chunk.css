@@ -1,0 +1,38 @@
+.textarea-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+  }
+  
+  .textarea {
+    width: 80%; 
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: 14px;
+    resize: both; 
+  }
+  
+
+  .textarea.fixed {
+    resize: none; 
+    height: 100px; 
+  }
+  
+  .counter {
+    align-self: flex-end;
+    font-size: 15px;
+    color: black;
+  }
+  
+  .error {
+    border-color: red; 
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 12px;
+  }
+  
+
+/*# sourceMappingURL=stories-Textarea-stories.ec267ac2.chunk.css.map*/

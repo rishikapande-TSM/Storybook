@@ -1,19 +1,32 @@
 {
-  "name": "storybook",
-  "version": "0.1.0",
-  "private": true,
+  "name": "rishika-storybook",
+  "version": "1.0.4",
+  "private": false,
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.6.0",
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
     "@fortawesome/free-solid-svg-icons": "^6.6.0",
     "@fortawesome/react-fontawesome": "^0.2.2",
+    "@mui/icons-material": "^6.1.5",
+    "@mui/lab": "^6.0.0-beta.14",
+    "@mui/material": "^6.1.6",
+    "@mui/x-date-pickers": "^7.22.1",
+    "@mui/x-date-pickers-pro": "^7.22.1",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "antd": "^5.21.6",
+    "date-fns": "^4.1.0",
+    "next-themes": "^0.4.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-icons": "^5.3.0",
     "react-scripts": "5.0.1",
     "react-tooltip": "^5.28.0",
-    "web-vitals": "^2.1.4"
+    "rishika-storybook": "^1.0.3",
+    "source-map-loader": "^5.0.0",
+    "styled-components": "^6.1.13",
+    "web-vitals": "^4.2.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -43,19 +56,31 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.20.1",
+    "@babel/preset-react": "^7.25.9",
     "@chromatic-com/storybook": "^1.9.0",
-    "@storybook/addon-essentials": "^8.3.6",
-    "@storybook/addon-interactions": "^8.3.6",
-    "@storybook/addon-links": "^8.3.6",
-    "@storybook/addon-onboarding": "^8.3.6",
-    "@storybook/blocks": "^8.3.6",
-    "@storybook/preset-create-react-app": "^8.3.6",
-    "@storybook/react": "^8.3.6",
-    "@storybook/react-webpack5": "^8.3.6",
-    "@storybook/test": "^8.3.6",
-    "eslint-plugin-storybook": "^0.10.1",
+    "@storybook/addon-actions": "^8.4.2",
+    "@storybook/addon-docs": "^8.4.2",
+    "@storybook/addon-essentials": "8.4.2",
+    "@storybook/addon-interactions": "8.4.2",
+    "@storybook/addon-links": "8.4.2",
+    "@storybook/addon-onboarding": "8.4.2",
+    "@storybook/blocks": "8.4.2",
+    "@storybook/preset-create-react-app": "^8.4.2",
+    "@storybook/react": "^8.4.2",
+    "@storybook/react-webpack5": "8.4.2",
+    "@storybook/test": "8.4.2",
+    "babel-loader": "^9.2.1",
+    "eslint-plugin-storybook": "^0.11.0",
     "prop-types": "^15.8.1",
-    "storybook": "^8.3.6",
-    "webpack": "^5.95.0"
-  }
+    "webpack": "^5.96.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

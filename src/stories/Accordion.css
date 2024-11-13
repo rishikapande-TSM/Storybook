@@ -1,0 +1,82 @@
+/* General styling for the Accordion container */
+.accordion {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    background-color: #fff;
+    overflow: hidden;
+  }
+  
+  /* Styling for each Accordion Section */
+  .accordion-section {
+    border-top: 1px solid #ddd; /* Border between sections */
+    transition: background-color 0.3s ease;
+  }
+  
+  .accordion-section:first-child {
+    border-top: none; 
+  }
+  
+  /* Styling for the Accordion Header */
+  .accordion-header {
+    width: 100%;
+    padding: 16px;
+    text-align: left;
+    background-color: #f4f4f4;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, padding-left 0.3s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .accordion-header:hover {
+    background-color: #e9e9e9; 
+  }
+  
+  
+  .accordion-header::after {
+    content: '▼'; 
+    font-size: 20px;
+    color: #555;
+    transition: transform 0.3s ease;
+  }
+  
+  .accordion-header.active::after {
+    content: '▲'; 
+    transform: rotate(180deg); /* Rotate the arrow when active */
+    font-size: 20px;
+  }
+  
+  /* Styling for the Accordion Content */
+  .accordion-content {
+    padding: 20px; 
+    background-color: #f9f9f9;
+    font-size: 18px; 
+    line-height: 4; 
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, padding 0.3s ease; 
+  }
+  
+  .accordion-content.active {
+    max-height: 4000px; /* Set a large max-height to reveal content */
+    padding: 20px; /* Consistent padding when content is shown */
+  }
+  
+  .accordion-content p {
+    margin: 0; 
+    color: #333;
+  }
+  
+  /* Optional: Styling for the active section (when it's open) */
+  .accordion-section.active {
+    background-color: #fafafa; /* Light background for open sections */
+    height: fit-content;
+  }
+  

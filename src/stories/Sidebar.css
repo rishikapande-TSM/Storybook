@@ -1,0 +1,63 @@
+/* Sidebar container */
+.email-sidebar {
+    width: 250px;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding-top: 20px;
+    position: fixed;
+    height: 90%;
+  }
+  
+  /* Profile section at the top */
+  .profile {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    /* background-color: #34495e; */
+  }
+  
+  .profile-icon {
+    margin-right: 10px;
+    font-size: 30px; 
+  }
+  
+  .profile-name {
+    font-weight: bold;
+    color: #ecf0f1;
+  }
+  
+  /* Menu container */
+  .menu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  /* Menu item styles */
+  .menu-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .menu-item:hover {
+    background-color: #34495e;
+  }
+  
+  
+  .menu-item__icon {
+    margin-right: 10px;
+    font-size: 20px; /* Icon size */
+  }
+  
+  .menu-item__title {
+    flex: 1;
+    font-size: 16px;
+  }
+  
+  /* Add spacing between the profile and the menu items */
+  .menu-item + .menu-item {
+    margin-top: 10px;
+  }
+  

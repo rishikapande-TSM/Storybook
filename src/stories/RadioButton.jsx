@@ -1,6 +1,6 @@
-// RadioButton.js
+
 import React from 'react';
-import './RadioButton.css'; // Optional CSS
+import './RadioButton.css'; 
 
 const RadioButton = ({ name, value, label, checked, onChange }) => (
   <label className="radio-container">

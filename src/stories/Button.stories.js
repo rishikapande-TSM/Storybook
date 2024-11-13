@@ -1,49 +1,64 @@
-import { fn } from '@storybook/test';
+import React from 'react'
+import Button from './Button'
 
-import { Button } from './Button';
 
-// More on how to set up stories at: https://storybook.js.org/docs/writing-stories#default-export
-export default {
-  title: 'Example/Button',
-  component: Button,
-  parameters: {
-    // Optional parameter to center the component in the Canvas. More info: https://storybook.js.org/docs/configure/story-layout
-    layout: 'centered',
-  },
-  // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/writing-docs/autodocs
-  tags: ['autodocs'],
-  // More on argTypes: https://storybook.js.org/docs/api/argtypes
-  argTypes: {
-    backgroundColor: { control: 'color' },
-  },
-  // Use `fn` to spy on the onClick arg, which will appear in the actions panel once invoked: https://storybook.js.org/docs/essentials/actions#action-args
-  args: { onClick: fn() },
+export default{
+    title:'Example/Button',
+    component:Button,
+    args:{
+        // children:'Button',
+        
+    },
+}
+
+const Template= args=> <Button {...args}/>
+
+export const Primary= Template.bind({})
+Primary.args={
+    variant:'primary',
+    children:'Primary Button'
+}
+
+export const Secondary= Template.bind({})
+Secondary.args={
+    variant:'Secondary',
+     children:'Secondary Button'
+}
+
+export const Danger= Template.bind({})
+Danger.args={
+    variant:'Danger',
+    children:'Danger Button'
+}
+
+export const Success= Template.bind({})
+Success.args={
+    variant:'Success',
+    children:'Success Button'
+}
+
+export const Disabled = Template.bind({});
+Disabled.args = {
+    variant: 'Disabled',  
+    children: 'Disabled Button',
+    disabled: true,
 };
 
-// More on writing stories with args: https://storybook.js.org/docs/writing-stories/args
-export const Primary = {
-  args: {
-    primary: true,
-    label: 'Button',
-  },
+export const Search = Template.bind({});
+Search.args = {
+  variant: 'search',
+  children: ' Search ',
 };
 
-export const Secondary = {
-  args: {
-    label: 'Button',
-  },
+export const SearchIcon = Template.bind({});
+SearchIcon.args = {
+  variant: 'searchIcon',
+//   children: ' Search ',
 };
 
-export const Large = {
-  args: {
-    size: 'large',
-    label: 'Button',
-  },
-};
-
-export const Small = {
-  args: {
-    size: 'small',
-    label: 'Button',
-  },
+export const Link = Template.bind({});
+Link.args = {
+  variant: 'link', 
+  href: 'https://www.example.com', 
+  children: 'Link button',
 };

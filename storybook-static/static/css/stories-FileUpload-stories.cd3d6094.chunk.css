@@ -1,0 +1,32 @@
+/* FileUpload.css */
+.file-upload {
+    border: 2px dashed #007bff;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .file{
+    width: 100%;
+  }
+
+  .file-upload:hover {
+    background-color: #f0f8ff;
+  }
+  
+  .file-upload-area {
+    margin-top: 15px;
+  }
+  
+  .file-upload-area ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .file-upload-area li {
+    margin: 5px 0;
+  }
+  
+
+/*# sourceMappingURL=stories-FileUpload-stories.cd3d6094.chunk.css.map*/

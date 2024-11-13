@@ -1,9 +1,9 @@
 
 import React from 'react';
-// import './Grid.css';
+ import './Grid.css';
 
 
-export const Grid = ({ children, columns = 3, rowGap = '16px', columnGap = '16px' }) => {
+export const Grid = ({ children, columns = 4, rowGap = '16px', columnGap = '16px' }) => {
   const gridStyle = {
     display: 'grid',
     gridTemplateColumns: `repeat(${columns}, 1fr)`,

@@ -1,0 +1,76 @@
+/* Toast.css */
+
+.toast {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000; 
+    animation: fadeIn 0.5s ease-in-out, fadeOut 0.5s ease-in-out 4.5s;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateX(-50%) translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(-50%) translateY(0);
+    }
+  }
+  
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+  
+  /* Close button styles */
+  .toast-close-btn {
+    background: transparent;
+    border: none;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  /* Toast types */
+  .toast-success {
+    background-color: #4CAF50;  
+    color: white;
+    font-size: 25px;
+  }
+  
+  .toast-info {
+    background-color: #2196F3;  /* Blue for info */
+    color: white;
+  }
+  
+  .toast-warning {
+    background-color: #ffcc00;  /* Orange for warning */
+    color: white;
+  }
+  
+  .toast-error {
+    background-color: #f44336;  /* Red for error */
+    color: white;
+  }
+  
+  .toast-message {
+    flex-grow: 1;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  

@@ -26,14 +26,13 @@ Text.args = {
   type: 'text',
   placeholder: 'Enter text',
   value: '',
-  Tooltip:'Enter text',
 };
 
 export const Password = Template.bind({});
 Password.args = {
   type: 'password',
   placeholder: 'Enter password',
-  Tooltip:'Enter password',
+
 };
 
 export const Focused = Template.bind({});

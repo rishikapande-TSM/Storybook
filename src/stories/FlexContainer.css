@@ -1,0 +1,14 @@
+.flex-item {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 4px;
+    flex: 1;
+    min-width: 100px;
+    margin: 5px;
+    padding: 10px;
+    width: 40%; 
+  }
+  
+  

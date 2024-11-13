@@ -1,0 +1,55 @@
+/* Basic Styles for List with Checkbox */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    font-size: 20px;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 15px;
+    
+  }
+  
+  /* List with Avatar and Icon */
+  .list-with-avatar {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .list-item {
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  .list-item:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .avatar {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .icon {
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .item-name {
+    font-size: 20px;
+  }
+  

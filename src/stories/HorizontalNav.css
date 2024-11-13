@@ -1,0 +1,36 @@
+/* HorizontalNav.css */
+
+.horizontal-nav {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .horizontal-nav-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .horizontal-nav-item {
+    margin-right: 16px; 
+  }
+  
+  .horizontal-nav-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  
+  .horizontal-nav-link:hover {
+    text-decoration: underline;
+    color: black;
+  }
+  
+  .horizontal-nav-link.active {
+    color: #495057; 
+    font-weight: bold;
+  }
+  

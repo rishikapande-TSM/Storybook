@@ -8,10 +8,15 @@ const config = {
     "@storybook/addon-essentials",
     "@chromatic-com/storybook",
     "@storybook/addon-interactions",
+    "@storybook/addon-viewport",
+    "@storybook/addon-docs",
   ],
   framework: {
     name: "@storybook/react-webpack5",
     options: {},
+    docs:{
+      defaultName: 'Documentation',
+    }
   },
   staticDirs: ["..\\public"],
 };

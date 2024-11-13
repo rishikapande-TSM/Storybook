@@ -1,0 +1,45 @@
+
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: lightyellow;
+    max-width: 700px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-image {
+    width: 100%;
+    height: auto;
+    
+  }
+  
+  .card-body {
+    padding: 16px;
+  }
+  
+  .card-title {
+    margin: 0;
+    font-size: 1.25rem;
+    color: #333;
+  }
+  
+  .card-content {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .card-actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 16px;
+    background-color: #f7f7f7;
+    border-top: 1px solid #ddd;
+  }
+  
+
+/*# sourceMappingURL=stories-Card-stories.80ea6529.chunk.css.map*/
