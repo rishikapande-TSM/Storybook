@@ -1,0 +1,139 @@
+/* General Styling for Tabs */
+.tabs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .tabs__nav {
+    display: flex;
+    gap: 10px;
+    padding: 10px 0;
+  }
+  
+  .tabs.horizontal .tabs__nav {
+    flex-direction: row;
+  }
+  
+  .tabs.horizontal .tab {
+    padding: 20px 30px;
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .tabs.horizontal .tab.active {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .tabs.horizontal .tab:hover {
+    color: white;
+    background-color: black;
+  }
+  
+  /* Vertical Tab Styling (Tab Bar on the Left) */
+  .tabs.vertical {
+    display: flex;
+    flex-direction: row; 
+  }
+  
+  .tabs.vertical .tabs__nav {
+    display: flex;
+    flex-direction: column;
+    width: 200px; 
+    height: 50%; 
+    padding: 20px 10px;
+    border-right: 1px solid #ddd; 
+    
+  }
+  
+  .tabs.vertical .tabs__nav .tab {
+    padding: 20px 10px;
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .tabs.vertical .tabs__nav .tab.active {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .tabs.vertical .tabs__nav .tab:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .tabs.vertical .tabs__content {
+    padding: 20px;
+    text-align: left; 
+    margin-top: 90px;
+    width: 80%;
+  }
+
+  /* Content area */
+  .tabs__content {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 20px; 
+    height: fit-content;
+    margin-top: 20px;
+    
+  }
+  
+  /* Icon + Text Tab Styling */
+  .tabs.icon-text {
+    display: flex;
+    flex-direction: column; 
+  }
+  
+  .tabs.icon-text .tabs__nav {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  
+  .tabs.icon-text .tab {
+    display: flex;
+    align-items: center;
+    padding: 20px 20px;
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .tabs.icon-text .tab .tab__icon {
+    margin-right: 8px; 
+  }
+  
+  .tabs.icon-text .tab.active {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .tabs.icon-text .tab:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .tabs__content .tabs.vertical{
+    margin-top: 50px;
+  }
+
+  

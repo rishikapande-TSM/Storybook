@@ -1,0 +1,34 @@
+/* Spinner.css */
+
+/* Shared styles for the spinner */
+.spinner {
+  border: 4px solid transparent;
+  border-top: 4px solid #36d7b7;
+  border-radius: 50%;
+  animation: spin 1.5s linear infinite;
+}
+
+/* Keyframe for the spin animation */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Inline Spinner */
+.inline-spinner {
+  display: inline-block;
+}
+
+/* Fullscreen Spinner */
+.fullscreen-spinner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent background */
+  z-index: 1000;
+}

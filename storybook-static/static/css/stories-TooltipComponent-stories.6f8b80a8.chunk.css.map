@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/stories-TooltipComponent-stories.6f8b80a8.chunk.css","mappings":"AAAA;AACA;AACA;AACA;AACA","sources":["webpack://rishika-storybook/./src/stories/TooltipComponent.css"],"sourcesContent":[".ant-btn{\r\n    width: 150px;\r\n    margin-top: 60px;\r\n    margin-left: 100px;\r\n}"],"names":[],"sourceRoot":""}

@@ -1,0 +1,83 @@
+/* General styling for the Alert container */
+.alert {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px 0;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    position: relative;
+  }
+  
+  .alert-message {
+    flex-grow: 1;
+    margin-left: 10px;
+  }
+  
+  .alert-close-btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  /* Icon styling */
+  .alert-icon {
+    font-size: 25px;
+    margin-right: 10px;
+  }
+  
+  /* Success Alert */
+  .alert-success {
+    background-color: rgb(74, 237, 59);
+    color: rgba(0, 0, 0, 0.8);
+    border: 1px solid #c3e6cb;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .alert-success .alert-icon {
+    color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Error Alert */
+  .alert-error {
+    background-color:red;
+    color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #f5c6cb;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .alert-error .alert-icon {
+    color: rgba(255, 255, 255, 0.9);
+  }
+  
+  /* Warning Alert */
+  .alert-warning {
+    background-color: orange;
+    color: rgba(0, 0, 0, 0.8);
+    border: 1px solid #ffeeba;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .alert-warning .alert-icon {
+    color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Info Alert */
+  .alert-info {
+    background-color: rgb(108, 108, 239);
+    color: rgba(0, 0, 0, 0.8);
+    border: 1px solid #bee5eb;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .alert-info .alert-icon {
+    color: rgba(0, 0, 0, 0.8);
+  }
+  

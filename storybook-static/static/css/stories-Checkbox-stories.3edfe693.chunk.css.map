@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/stories-Checkbox-stories.3edfe693.chunk.css","mappings":"AAAA;AACA;;AAEA;;AAEA;AACA;AACA","sources":["webpack://rishika-storybook/./src/stories/Checkbox.css"],"sourcesContent":[".checkbox-container{\r\n    font-size: 20px;\r\n    \r\n}\r\n\r\ninput[type=\"checkbox\"]{\r\n    padding: 20px;\r\n}"],"names":[],"sourceRoot":""}

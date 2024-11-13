@@ -1,0 +1,18 @@
+.container-fixed {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 100%; 
+  box-sizing: border-box;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+}
+
+.container-fluid {
+  margin: 0 auto; 
+  padding: 0 15px;
+  box-sizing: border-box;
+  background-color: #f8f9fa;
+  border: 1px solid #ccc;
+  width: 100%; 
+}

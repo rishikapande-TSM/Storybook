@@ -1,0 +1,16 @@
+
+.custom-badge {
+    font-size: 1.2rem; 
+    font-weight: bold;
+    padding: 0 6px;
+    border-radius: 4px;
+}
+
+.custom-badge .ant-badge-status-dot {
+    width: 50px;
+    height: 50px;
+}
+
+
+
+/*# sourceMappingURL=stories-BadgeComponent-stories.468cc617.chunk.css.map*/

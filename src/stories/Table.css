@@ -1,0 +1,86 @@
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    padding: 16px;
+    text-align: left;
+    border: 1px solid #ddd;
+    font-size: 20px;
+  }
+  
+  .table th {
+    cursor: pointer;
+    background-color:black;
+    color: whitesmoke;
+    content: ' ↑';
+  }
+  
+  .table th.ascending::after {
+    content: ' ↑';
+  }
+  
+  .table th.descending::after {
+    content: ' ↓';
+  }
+  
+  .table .expanded-row {
+    background-color: #f9f9f9;
+    padding: 5px;
+    height: fit-content;
+  }
+  
+  /* Pagination styles */
+  .pagination {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+  }
+  
+  .pagination button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .pagination button:disabled {
+    background-color: #aaa;
+  }
+  
+  /* Add hover effect on rows */
+  .table tbody tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+  
+  .skeleton {
+    background-color: #e0e0e0;
+    height: 20px;
+    border-radius: 4px;
+    margin: 4px 0;
+    animation: shimmer 1.5s infinite linear;
+  }
+  
+  .skeleton th,
+  .skeleton td {
+    width: 120px;
+    margin: 4px;
+  }
+  
+  @keyframes shimmer {
+    0% {
+      background-position: -200% 0;
+    }
+    100% {
+      background-position: 200% 0;
+    }
+  }
+  
